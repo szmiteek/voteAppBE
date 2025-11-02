@@ -1,6 +1,5 @@
 package pl.vote.candidate;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pl.vote.candidate.model.Candidate;
