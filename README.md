@@ -30,7 +30,7 @@ git clone https://github.com/szmiteek/voteAppBE.git
 cd voteAppBE
 ```
 
-2. Build the project using Maven (required for source code):
+2. Build the project using Maven:
 
 ```bash
 mvn clean install
@@ -53,5 +53,5 @@ http://localhost:8080/
 ## Notes
 
 - The project uses an **H2 in-memory database** by default. No external DB setup is needed for development.  
-- You can test the API endpoints using Postman, cURL, or by connecting the frontend application.  
+- You can test the API endpoints using Postman or by connecting the frontend application.  
 - For any changes in dependencies, rebuild the project using `mvn clean install`.
