@@ -15,8 +15,8 @@ public class CandidateService {
         candidateRepository.save(candidate);
     }
 
-    public List<CandidateDTO> getAllCandidates() {
-        return candidateRepository.findAll().stream()
+    public List<CandidateDTO> getAllCandidatesWithVotes() {
+        return candidateRepository.findAllWithVotes().stream()
                 .map(candidate -> new CandidateDTO(
                         candidate.getId(),
                         candidate.getFirstName(),

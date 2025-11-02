@@ -24,8 +24,8 @@ public class CandidateController {
     private final ValidationUtils validationUtils;
 
     @GetMapping()
-    public List<CandidateDTO> getAllCandidates() {
-        return candidateService.getAllCandidates();
+    public List<CandidateDTO> getAllCandidatesWithVotes() {
+        return candidateService.getAllCandidatesWithVotes();
     }
 
     @PostMapping()
